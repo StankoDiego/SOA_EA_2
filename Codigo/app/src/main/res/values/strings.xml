@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Codigo</string>
+    <string name="acelerometro">Acelerometro</string>
+    <string name="otro_sensor">Otro Sensor</string>
+    <string name="registrar">Registrar</string>
+    <string name="dni">DNI</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="comision">Comision</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="crear_usuario">Crear usuario</string>
+    <string name="mostrardatos">MostrarDatos</string>
+    <string name="registrar_ndatos">Registrar\ndatos</string>
+    <string name="buscar">Buscar</string>
+</resources>
