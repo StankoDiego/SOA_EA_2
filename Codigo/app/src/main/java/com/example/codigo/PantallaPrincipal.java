@@ -71,6 +71,7 @@ public class PantallaPrincipal extends AppCompatActivity implements SensorEventL
     private static final String HEADER_VALUE = "application/json";
     private static final String HEADER_KEY2 = "Authorization";
     private static final String HEADER_VALUE2 = "Bearer";
+    private static long REFRESH = 1500000;
 
     @SuppressLint("LongLogTag")
     protected void onCreate(Bundle savedInstanceState) {
@@ -113,7 +114,7 @@ public class PantallaPrincipal extends AppCompatActivity implements SensorEventL
                 }
             }
         };
-        timer.schedule(refreshTokenTask, 60000, 180000);
+        timer.schedule(refreshTokenTask, REFRESH, REFRESH);
 
         this.handlerRefresh = new Handler() {
             @Override
